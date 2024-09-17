@@ -1,3 +1,21 @@
+@media screen and (max-width: 600px) {
+  /* Adjust image size for mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Flexbox layout for smaller screens */
+  div {
+    flex: 1 1 100%; /* Make divs full width on small screens */
+  }
+
+  /* Table-specific adjustments (if you're still using tables) */
+  table {
+    width: 100%;
+  }
+}
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
